@@ -7,7 +7,7 @@ export default function Header() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > window.innerHeight * 0.6);
+    const onScroll = () => setVisible(window.scrollY > 80);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -33,7 +33,7 @@ export default function Header() {
             Our Story
           </Link>
           <Link href="#member" className="transition-opacity hover:opacity-70">
-            Member
+            Team
           </Link>
           <button
             type="button"

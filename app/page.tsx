@@ -1,7 +1,9 @@
+import BackToTop from "./components/BackToTop";
 import ContactUs from "./components/ContactUs";
 import Header from "./components/Header";
 import Member from "./components/Member";
 import OurStory from "./components/OurStory";
+import ScrollIndicator from "./components/ScrollIndicator";
 import TopVisual from "./components/TopVisual";
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
         <Member />
         <ContactUs />
       </main>
+      <ScrollIndicator />
+      <BackToTop />
     </>
   );
 }

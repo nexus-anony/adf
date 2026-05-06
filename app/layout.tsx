@@ -26,7 +26,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Asia Defense Innovation Fund",
   description:
-    "We invest in the operational needs of the Self-Defense Forces and breakthrough technologies.",
+    "ADIF is Japan's first defense-focused fund. We invest in Japanese defense-tech startups addressing operational needs.",
 };
 
 export default function RootLayout({
