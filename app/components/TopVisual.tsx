@@ -15,17 +15,20 @@ export default function TopVisual() {
 
       <div className="relative z-10 flex h-full w-full items-center justify-center px-5 text-white sm:px-6">
         <div className="w-full max-w-5xl">
-          <p className="font-montserrat text-[10px] font-bold uppercase tracking-[0.25em] text-zinc-300 sm:text-xs sm:tracking-[0.3em] md:text-sm">
+          <h1 className="font-anton text-4xl leading-tight tracking-tight sm:text-5xl md:whitespace-nowrap md:text-6xl lg:text-7xl">
             Asia Defense Innovation Fund
-          </p>
-          <h1 className="mt-3 font-anton text-3xl leading-tight tracking-tight sm:mt-4 sm:text-5xl md:text-6xl lg:text-7xl">
-            The Indo-Pacific balance has collapsed,{" "}
-            <span className="block sm:inline">let&apos;s build a new order.</span>
           </h1>
-          <p className="mt-5 max-w-2xl font-montserrat text-sm font-bold sm:mt-6 sm:text-base md:text-lg">
-            ADIF is Japan&apos;s first defense-focused fund. We invest in
-            Japanese defense-tech startups addressing operational needs.
-          </p>
+          <div className="mt-6 space-y-1 font-montserrat text-sm font-bold sm:mt-8 sm:text-base md:text-lg">
+            <p>
+              The Indo-Pacific balance has collapsed, let&apos;s build a new
+              order.
+            </p>
+            <p>ADIF is Japan&apos;s first defense-focused fund.</p>
+            <p>
+              We invest in Japanese defense-tech startups addressing operational
+              needs.
+            </p>
+          </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:gap-5">
             <Link
