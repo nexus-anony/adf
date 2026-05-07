@@ -18,30 +18,27 @@ export default function TopVisual() {
           <h1 className="font-anton text-4xl leading-tight tracking-tight sm:text-5xl md:whitespace-nowrap md:text-6xl lg:text-7xl">
             Asia Defense Innovation Fund
           </h1>
-          <div className="mt-6 space-y-1 font-montserrat text-base font-normal leading-snug tracking-normal sm:mt-8 sm:text-xl md:text-2xl">
-            <p>
-              The Indo-Pacific balance has collapsed, let&apos;s build a new
-              order.
-            </p>
-            <p>ADIF is Japan&apos;s first defense-focused fund.</p>
-            <p>
-              We invest in Japanese defense-tech startups addressing operational
-              needs.
-            </p>
-          </div>
+          <p className="mt-8 max-w-4xl font-montserrat text-base font-normal leading-[1.6] sm:mt-10 sm:text-lg md:text-xl">
+            The Indo-Pacific balance has collapsed, let&apos;s build a new
+            order. <br />
+            ADIF is Japan&apos;s first defense-focused fund. <br />
+            <br />
+            We invest in Japanese defense-tech startups addressing operational
+            needs.
+          </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:gap-5">
+          <div className="mt-12 flex flex-col gap-3 sm:mt-16 sm:flex-row sm:gap-4">
             <Link
               href="#our-story"
-              className="flex h-12 w-full items-center justify-center border-2 border-white font-montserrat text-sm font-bold tracking-wider transition-colors hover:bg-white hover:text-black sm:w-44"
+              className="flex w-full items-center justify-center rounded-[3px] border-2 border-white px-12 py-4 font-montserrat text-sm font-medium tracking-wide transition-colors hover:bg-white hover:text-black sm:w-auto"
             >
-              Our&nbsp; Story
+              OUR STORY
             </Link>
             <Link
               href="#contact-us"
-              className="flex h-12 w-full items-center justify-center border-2 border-white font-montserrat text-sm font-bold tracking-wider transition-colors hover:bg-white hover:text-black sm:w-44"
+              className="flex w-full items-center justify-center rounded-[3px] border-2 border-white px-12 py-4 font-montserrat text-sm font-medium tracking-wide transition-colors hover:bg-white hover:text-black sm:w-auto"
             >
-              Contact Us
+              CONTACT US
             </Link>
           </div>
         </div>
